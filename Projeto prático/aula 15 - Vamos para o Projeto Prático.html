@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;900&family=Montserrat:wght@100&family=Oswald&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Convert Money</title>
+    <link rel="stylesheet" href="style15.css" />
+</head>
+
+<body>
+    <img class="gif" src="assents/logo.gif"/> <!--imagem gif-->
+
+    <form> <!--formulário-->
+
+        <legend class="legend-1">Converter <span>de</span></legend>
+        
+        <select class="select-1" > <!--Select de cima-->
+            <option value="real1">R$ Real brasileiro</option>
+            <option value="dolar1">US$ Dólar americano</option>
+            <option value="euro1">€ Euro</option>
+            <option value="bitcoin1">BTC Bitcoin</option>
+            <option value="libra1">£ Libra </option>
+        </select>
+
+        <legend class="legend-2">Converter <span>para</span></legend>
+
+        <select class="select-2" >
+            <option value ="real">R$ Real brasileiro</option>
+            <option value="dolar">US$ Dólar americano</option>
+            <option value="euro">€ Euro</option>
+            <option value="bitcoin">BTC Bitcoin</option>
+            <option value="libra">£ Libra </option>
+        </select>
+
+        <legend class="valor">Valor</legend>
+        <div>
+            <input value="" class="input-currency" placeholder="R$ 10.000,00"/>
+        </div>
+        
+            <button type="button" class="convert-button">Converter</button>
+
+        <div class="box-conversao">
+            <div>
+                <img class="br" src="./assents/br.png"/>
+                <p class="real-troca">Real</p>
+                <h2 class="convert-real">R$ 0,00</h2>
+                
+                <img class="seta" src="./assents/seta.png"/>
+                <img class="usa" src="./assents/usa.png"/>
+                
+                <p class="dolar-troca">Dólar Americano</p>
+                <h2 class="convert-dolar">US$ 0,00</h2>
+                
+            </div>
+           
+        </div>
+</form>
+
+
+</body>
+
+    <script src="script15.js"></script>
+
+</html>

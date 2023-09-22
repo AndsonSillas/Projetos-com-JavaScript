@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgba(58, 162, 223, 0.671);    
+    overflow: hidden;
+}
+
+
+.container{
+    display:block;
+    width:500px;
+    height:500px;
+    background-color: brown;
+    margin:200px 600px;
+    text-align: center;
+    padding:100px;
+    border:25px solid black;
+}
+
+h1,p{
+    margin:5px;
+    font-size:29px;
+    margin-top:10px;
+    border:none;
+}
+
+
+#rock{
+    margin-top:20px;
+    font-size:40px;
+}
+
+
+#paper{
+    font-size:40px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+#scissors{
+    font-size:40px;
+}
