@@ -6,7 +6,7 @@
 
 html{
     background-color: rgba(58, 162, 223, 0.671);    
-    overflow: hidden;
+    margin-left:300px;
 }
 
 
@@ -15,7 +15,7 @@ html{
     width:500px;
     height:500px;
     background-color: brown;
-    margin:200px 600px;
+    margin:200px 100px;
     text-align: center;
     padding:100px;
     border:25px solid black;
